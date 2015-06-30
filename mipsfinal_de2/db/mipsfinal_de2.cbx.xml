@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="mipsfinal_de2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_de2|datapath:mips|breg:breg0|altsyncram:registradores_rtl_0" CBX_FILE_NAME="altsyncram_6tg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_de2|datapath:mips|breg:breg0|altsyncram:registradores_rtl_1" CBX_FILE_NAME="altsyncram_6tg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_de2|datapath:mips|md_ram:md|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rkc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|mips_de2|datapath:mips|mi_rom:mi|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_6i71.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

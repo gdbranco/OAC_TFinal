@@ -1,0 +1,124 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mipsfinal_de2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/utilidades.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package utilidades
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/ULA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ULA
+# -- Compiling architecture Comportamental of ULA
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeMEM_WB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pipeMEM_WB
+# -- Compiling architecture comportamental of pipeMEM_WB
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeIF_ID.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pipeIF_ID
+# -- Compiling architecture comportamental of PipeIF_ID
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeID_EX.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package utilidades
+# -- Compiling entity pipeID_EX
+# -- Compiling architecture comportamental of pipeID_EX
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeEX_MEM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity pipeEX_MEM
+# -- Compiling architecture comportamental of pipeEX_MEM
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mi_rom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mi_rom
+# -- Compiling architecture SYN of mi_rom
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/md_ram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity md_ram
+# -- Compiling architecture SYN of md_ram
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/Controller.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Controller
+# -- Compiling architecture comportamental of Controller
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/breg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity breg
+# -- Compiling architecture comportalmental of breg
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/7seg_conv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity hex_conv
+# -- Compiling architecture comportamental of hex_conv
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/sign_extender.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package utilidades
+# -- Compiling entity sign_extender
+# -- Compiling architecture comportamental of sign_extender
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mips_de2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package utilidades
+# -- Compiling entity mips_de2
+# -- Compiling architecture comportamental of mips_de2
+# vcom -93 -work work {C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package utilidades
+# -- Compiling entity datapath
+# -- Compiling architecture comportamental of datapath
+# 

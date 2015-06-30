@@ -1,0 +1,92 @@
+-- controle
+-- Daniella Albuquerque dos Angelos 11/0010434
+
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity Controller is
+	port( op,funct : in std_logic_vector(5 downto 0);
+			zero		: in std_logic;
+			RegDst	: out std_logic;
+			ULAsrc	: out std_logic;
+			MemToReg : out std_logic;
+			RegWrite : out std_logic;
+			MemRead 	: out std_logic;
+			MemWrite : out std_logic;
+			PCsrc		: out std_logic;
+			Jump		: out std_logic;
+			ULActrl	: out std_logic_vector (3 downto 0);
+			ulaOP1	: buffer std_logic;
+			ulaOP2	: buffer std_logic;
+			clk		: in std_logic
+		 );
+end controller;
+
+architecture comportamental of Controller is
+signal controles  : std_logic_vector(9 downto 0);
+signal branch		: std_logic;
+signal ulaOP		: std_logic_vector (1 downto 0);
+signal ula			: std_logic_vector (3 downto 0);
+
+begin
+	process(clk) begin
+		case op is
+			when "000000" =>
+				controles <= "1001000100"; -- instrucao do tipo R
+			when "100011" =>
+				controles <= "0111100000"; -- lw
+			when "101011" =>
+				controles <= "0100010000"; -- sw
+			when "000100" =>
+				controles <= "0000001010"; -- beq
+			when "000010" =>
+				controles <= "0000000001"; -- jump
+			when others =>
+				controles <= "----------";
+		end case;
+		
+		branch 	<= controles(3);
+		ulaOP1 	<= controles(2);
+		ulaOP2	<= controles(1);
+		ulaOP 	<= ulaOP1 & ulaOP2;
+		
+		case ulaOP is
+			when "00" =>
+				ula <= "0000"; -- lw sw
+			when "01" =>
+				ula <= "0001";	-- beq
+			when "10" =>
+				case funct is
+					when "100000" => ula <= "0000"; -- add
+               when "100010" => ula <= "0001"; -- sub
+               when "100100" => ula <= "0010"; -- and		-- revisar esses valores do funct
+               when "100101" => ula <= "0011"; -- or
+               when "101010" => ula <= "0100"; -- not
+					when "101011" => ula <= "0101"; -- xor
+               when "100001" => ula <= "0110"; -- sll
+               when "100011" => ula <= "0111"; -- srl
+               when "100110" => ula <= "1110"; -- sra
+					when "100111" => ula <= "1111"; -- slt
+					when others =>
+						ula <= "----";
+				end case;
+			when others =>
+				ula <= "----";
+		end case;
+				
+	end process;
+	
+	RegDst 	<= controles(9);
+	Ulasrc 	<= controles(8);
+	MemToReg <= controles(7);
+	RegWrite <= controles(6);
+	MemRead 	<= controles(5);
+	MemWrite <= controles(4);
+	Jump		<= controles(0);
+	ULActrl  <= ula;
+
+	PCsrc		<= zero and branch;
+	
+end;
+

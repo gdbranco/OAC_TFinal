@@ -1,0 +1,506 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Branco\Dropbox\Faculdade\OAC\mipsfinal_de2\simulation\modelsim
+Ebreg
+Z1 w1405277264
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Branco\Dropbox\Faculdade\OAC\mipsfinal_de2\simulation\modelsim
+Z6 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/breg.vhd
+Z7 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/breg.vhd
+l0
+L5
+VaWFaHB95B^Q7;HeQQkg9n1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1405366098.715000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/breg.vhd|
+Z11 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/breg.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 N428Dk@>8=^@zk_WG`dkh0
+!i10b 1
+Acomportalmental
+R2
+R3
+R4
+DEx4 work 4 breg 0 22 aWFaHB95B^Q7;HeQQkg9n1
+l18
+L15
+V5>46J8WH^^]H4g[o24YO=2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 OBY750jfJ2zi=ZYB>SgEa1
+!i10b 1
+Econtroller
+Z14 w1405349930
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/Controller.vhd
+Z16 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/Controller.vhd
+l0
+L7
+V[7ZekLHP^W9ERHKJUGDEO2
+R8
+31
+Z17 !s108 1405366098.101000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/Controller.vhd|
+Z19 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/Controller.vhd|
+R12
+R13
+!s100 Iij<M9o`>4d^?O7m?W_g12
+!i10b 1
+Acomportamental
+R2
+R3
+R4
+DEx4 work 10 controller 0 22 [7ZekLHP^W9ERHKJUGDEO2
+l33
+L23
+V@fZ?N_LghZK3bFSlo2o?F2
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 19zMJS<3D>6I48@TAz37m2
+!i10b 1
+Edatapath
+Z20 w1405365982
+Z21 DPx4 work 10 utilidades 0 22 7YW;=Bc7]3>@G:0hclHiV1
+R2
+R3
+R4
+R5
+Z22 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/datapath.vhd
+Z23 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/datapath.vhd
+l0
+L6
+VNjbbb^UfLQmgQ3nPf@2[k2
+!s100 <6mXEW8:0N9V766k0A0KQ3
+R8
+31
+!i10b 1
+Z24 !s108 1405366100.527000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/datapath.vhd|
+Z26 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/datapath.vhd|
+R12
+R13
+Acomportamental
+R21
+R2
+R3
+R4
+DEx4 work 8 datapath 0 22 Njbbb^UfLQmgQ3nPf@2[k2
+l53
+L32
+VfG<Ve62;aE40MQ50e_Qhd0
+!s100 Gj_=WCDG;DbK<1Z94>8413
+R8
+31
+!i10b 1
+R24
+R25
+R26
+R12
+R13
+Ehex_conv
+Z27 w1403318311
+R3
+R4
+R5
+Z28 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/7seg_conv.vhd
+Z29 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/7seg_conv.vhd
+l0
+L4
+VzTI[Y`PmOZ9ePeFdK64`k2
+R8
+31
+Z30 !s108 1405366099.212000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/7seg_conv.vhd|
+Z32 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/7seg_conv.vhd|
+R12
+R13
+!s100 0n]e0`zoz`<0X7Jh2Pb]F0
+!i10b 1
+Acomportamental
+R3
+R4
+DEx4 work 8 hex_conv 0 22 zTI[Y`PmOZ9ePeFdK64`k2
+l13
+L12
+Vezeo@P4]zQJI488gGl71R0
+R8
+31
+R30
+R31
+R32
+R12
+R13
+!s100 QMNeZF[e7X::g7cG[m^eR1
+!i10b 1
+Emd_ram
+Z33 w1405013392
+R3
+R4
+R5
+Z34 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/md_ram.vhd
+Z35 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/md_ram.vhd
+l0
+L42
+VIMI^;C04Fe9M[c[jjS=Wn3
+R8
+31
+Z36 !s108 1405366097.721000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/md_ram.vhd|
+Z38 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/md_ram.vhd|
+R12
+R13
+!s100 7C`2eL3L?TL;5R<`kBelC0
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 6 md_ram 0 22 IMI^;C04Fe9M[c[jjS=Wn3
+l86
+L54
+V`cHX1mFn=[JccZ1@B8Y?^2
+R8
+31
+R36
+R37
+R38
+R12
+R13
+!s100 K<RZlDISK6GoIX;lSlGCU2
+!i10b 1
+Emi_rom
+Z39 w1403314052
+R3
+R4
+R5
+Z40 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mi_rom.vhd
+Z41 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mi_rom.vhd
+l0
+L42
+V<TA[4F=^2Ai`<YTS>X=SJ3
+R8
+31
+Z42 !s108 1405366097.396000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mi_rom.vhd|
+Z44 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mi_rom.vhd|
+R12
+R13
+!s100 =o7XXh`eUc4;TA8z42Oo<1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 6 mi_rom 0 22 <TA[4F=^2Ai`<YTS>X=SJ3
+l81
+L52
+VX?9_gUzCjeDoT0_V1;mm51
+R8
+31
+R42
+R43
+R44
+R12
+R13
+!s100 92`b?E>=I><458QTNijCk0
+!i10b 1
+Emips_de2
+Z45 w1405358897
+R21
+Z46 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z47 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R2
+R3
+R4
+R5
+Z48 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mips_de2.vhd
+Z49 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mips_de2.vhd
+l0
+L7
+V6b?<ABn96i[XNi8JAP?8Z1
+R8
+31
+Z50 !s108 1405366100.059000
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mips_de2.vhd|
+Z52 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/mips_de2.vhd|
+R12
+R13
+!s100 NRGknTRUYE7UoKTZS7OPX0
+!i10b 1
+Acomportamental
+R21
+R46
+R47
+R2
+R3
+R4
+DEx4 work 8 mips_de2 0 22 6b?<ABn96i[XNi8JAP?8Z1
+l38
+L22
+V>L7RUea67;]Ri<?Hgkb_W2
+R8
+31
+R50
+R51
+R52
+R12
+R13
+!s100 JPB8[8Cl[O3TO]g5^jIkN0
+!i10b 1
+Epipeex_mem
+Z53 w1405270014
+R3
+R4
+R5
+Z54 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeEX_MEM.vhd
+Z55 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeEX_MEM.vhd
+l0
+L6
+VK:S:L]HNC18hAl:lY_=:R3
+R8
+31
+Z56 !s108 1405366097.046000
+Z57 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeEX_MEM.vhd|
+Z58 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeEX_MEM.vhd|
+R12
+R13
+!s100 V@JXoTZSm:XzE3:XShChL3
+!i10b 1
+Acomportamental
+R3
+R4
+DEx4 work 10 pipeex_mem 0 22 K:S:L]HNC18hAl:lY_=:R3
+l33
+L32
+VOiY`Kbkmh7YnblN2fEMAC0
+R8
+31
+R56
+R57
+R58
+R12
+R13
+!s100 mV<P0`7Xb?g:hZ7cA<DC91
+!i10b 1
+Epipeid_ex
+Z59 w1405358679
+R2
+R21
+R3
+R4
+R5
+Z60 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeID_EX.vhd
+Z61 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeID_EX.vhd
+l0
+L6
+V@C:n_?RPFNekMn]Scc3mm0
+R8
+31
+Z62 !s108 1405366096.573000
+Z63 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeID_EX.vhd|
+Z64 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeID_EX.vhd|
+R12
+R13
+!s100 d=4AU03T>D@VjLKSfQC@62
+!i10b 1
+Acomportamental
+R2
+R21
+R3
+R4
+DEx4 work 9 pipeid_ex 0 22 @C:n_?RPFNekMn]Scc3mm0
+l47
+L36
+Vlb7OLNRK4SO59TV42H>BB1
+R8
+31
+R62
+R63
+R64
+R12
+R13
+!s100 L>h@F^Inm68k7Rk6ITmT32
+!i10b 1
+Epipeif_id
+Z65 w1405270013
+R3
+R4
+R5
+Z66 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeIF_ID.vhd
+Z67 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeIF_ID.vhd
+l0
+L6
+VYFB9Mo^zNFz?fe;zEzeSV0
+R8
+31
+Z68 !s108 1405366096.198000
+Z69 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeIF_ID.vhd|
+Z70 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeIF_ID.vhd|
+R12
+R13
+!s100 TA_48ZP<knOBabKP`2[PP0
+!i10b 1
+Acomportamental
+R3
+R4
+DEx4 work 9 pipeif_id 0 22 YFB9Mo^zNFz?fe;zEzeSV0
+l17
+L16
+VHdzWg6[b>LN8k3OA8eL6g2
+R8
+31
+R68
+R69
+R70
+R12
+R13
+!s100 BPNTcKnR4Tkn0n]Z^fZXg3
+!i10b 1
+Epipemem_wb
+R65
+R3
+R4
+R5
+Z71 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeMEM_WB.vhd
+Z72 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeMEM_WB.vhd
+l0
+L6
+VC:PXzQfioL=d>QGWA<=SK0
+R8
+31
+Z73 !s108 1405366095.530000
+Z74 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeMEM_WB.vhd|
+Z75 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/pipeMEM_WB.vhd|
+R12
+R13
+!s100 `FU;ZjUU]_lQ5471STKN`0
+!i10b 1
+Acomportamental
+R3
+R4
+DEx4 work 10 pipemem_wb 0 22 C:PXzQfioL=d>QGWA<=SK0
+l23
+L22
+V<[nHQ8H^jY@Fczk8=T1S53
+R8
+31
+R73
+R74
+R75
+R12
+R13
+!s100 <j8?i3Q6<oYJG556Mgmm71
+!i10b 1
+Esign_extender
+Z76 w1403649109
+R21
+R2
+R3
+R4
+R5
+Z77 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/sign_extender.vhd
+Z78 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/sign_extender.vhd
+l0
+L6
+V7:7cgf@LeBYn[bERcW<hb2
+R8
+31
+Z79 !s108 1405366099.580000
+Z80 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/sign_extender.vhd|
+Z81 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/sign_extender.vhd|
+R12
+R13
+!s100 @N01<n1ZL`g9_[54<jL`;0
+!i10b 1
+Acomportamental
+R21
+R2
+R3
+R4
+DEx4 work 13 sign_extender 0 22 7:7cgf@LeBYn[bERcW<hb2
+l14
+L13
+VZ136:UBagUI]>C73ooMTA3
+R8
+31
+R79
+R80
+R81
+R12
+R13
+!s100 h]G]0MejS71U<iP:jSQzP2
+!i10b 1
+Eula
+Z82 w1405283040
+R2
+R3
+R4
+R5
+Z83 8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/ULA.vhd
+Z84 FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/ULA.vhd
+l0
+L5
+V0cn`Mk2:f>@a1h9VFM2C60
+R8
+31
+Z85 !s108 1405366094.854000
+Z86 !s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/ULA.vhd|
+Z87 !s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/ULA.vhd|
+R12
+R13
+!s100 `VWSZYIdno=zgomcUbc5I2
+!i10b 1
+Acomportamental
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 0cn`Mk2:f>@a1h9VFM2C60
+l25
+L16
+VN7^<2Uf@K88WZN?5m<cm23
+R8
+31
+R85
+R86
+R87
+R12
+R13
+!s100 7VSMQ9=SO2]F23<JMYW2H2
+!i10b 1
+Putilidades
+R2
+R3
+R4
+w1405358933
+R5
+8C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/utilidades.vhd
+FC:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/utilidades.vhd
+l0
+L5
+V7YW;=Bc7]3>@G:0hclHiV1
+R8
+31
+R12
+R13
+!s100 hH?;<0f=^?J1C]>BU1h5k0
+!i10b 1
+!s108 1405366094.482000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/utilidades.vhd|
+!s107 C:/Users/Branco/Dropbox/Faculdade/OAC/Componentes/utilidades.vhd|

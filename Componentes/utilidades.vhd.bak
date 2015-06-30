@@ -1,0 +1,64 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+--------------------------------------------------------------------
+package utilidades is
+	------Constantes----------------------------------------------
+	constant regWIDTH : integer := 32;
+	constant raddWIDTH : integer := 5;
+	constant pcaddWIDTH : integer := 8;
+	constant functWIDTH  : integer := 4;
+	constant opWIDTH     : integer := 6;
+	------7seg_conv----------------------------------------------
+	component hex_conv is 
+	port (data :in std_logic_vector(opWIDTH-1 downto 0);	saida:out std_logic_vector(6 downto 0));
+	end component;
+	------sign_extender------------------------------------------
+	component sign_extender is
+	generic(W: integer := 16);
+	port( A:in std_logic_vector(W-1 downto 0);
+			Y: out std_logic_vector(regWIDTH-1 downto 0)
+	);
+	end component;
+	------ULA----------------------------------------------------
+	component ULA is
+	port(A: in std_logic_vector (regWIDTH-1 downto 0);B: in std_logic_vector (regWIDTH-1 downto 0);
+	     OP: in std_logic_vector (functWIDTH-1 downto 0);Z: out std_logic_vector (regWIDTH-1 downto 0);
+		  OVER, ZERO, VAI: out std_logic);
+	end component;
+	------breg---------------------------------------------------
+	component breg is
+	port(addA, addB, addW:in std_logic_vector(raddWIDTH-1 downto 0);saidaA: out std_logic_vector(regWIDTH-1 downto 0);
+		  saidaB: out std_logic_vector(regWIDTH-1 downto 0);wdata: in  std_logic_vector(regWIDTH-1 downto 0);
+	     writeEnable,CLK: in  std_logic);
+	end component;
+	------mi_rom-------------------------------------------------
+	component mi_rom is
+	port(address: in STD_LOGIC_VECTOR (pcaddWIDTH-1 downto 0);clock: in STD_LOGIC;
+	     q: out STD_LOGIC_VECTOR (regWIDTH-1 downto 0));
+	end component;
+	------md_ram-------------------------------------------------
+	component md_ram is
+	port(address: in STD_LOGIC_VECTOR (pcaddWIDTH-1 downto 0);clock	: in STD_LOGIC ;
+		  data	: in STD_LOGIC_VECTOR (regWIDTH-1 downto 0);wren	: in STD_LOGIC ;
+		  q		: in STD_LOGIC_VECTOR (regWIDTH-1 downto 0));
+	end component;
+	------controle_principal-------------------------------------
+	component controle_principal is
+    port (op        : in std_logic_vector(opWIDTH-1 downto 0);
+          memtoreg  : out std_logic;
+          memwrite  : out std_logic;
+          branch    : buffer std_logic;
+          alusrc    : out std_logic;
+          regdst    : out std_logic;
+          regwrite : out std_logic;
+          jump      : out std_logic;
+          aluop     : buffer std_logic_vector(1 downto 0));
+	end component;
+	------controle_ula-------------------------------------------
+	component controle_ula is
+    port (funct      : in std_logic_vector(opWIDTH-1 downto 0); aluop: in std_logic_vector(1 downto 0);
+          alucontrol : out std_logic_vector(functWIDTH-1 downto 0));
+	end component;
+end package;
+--------------------------------------------------------------------
